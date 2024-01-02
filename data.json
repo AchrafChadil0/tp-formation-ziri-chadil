@@ -1,0 +1,55 @@
+{
+  "formations": [
+    {
+      "id": 101,
+      "titre": "Développement Web Avancé",
+      "domaine": "Informatique",
+      "niveau": "Intermédiare",
+      "description": "Approfondissement des concepts de Développement web modernce avec React et Node.Js",
+      "disponible": true
+    },
+    {
+      "id": 102,
+      "titre": "Gestion de Projet Agile",
+      "domaine": "Management",
+      "niveau": "Débutant",
+      "description": "Introduction aux méthodologies agiles, principalement Scrum et kanban",
+      "disponible": false
+    },
+    {
+      "id": 103,
+      "titre": "Desgin Graphique pour le Web",
+      "domaine": "Design",
+      "niveau": "Intermédiare",
+      "description": "Technique de design graphique appliquées à la création de sites web attractifs",
+      "disponible": true
+    }
+  ],
+
+  "users": [
+    {
+      "id": 201,
+      "nom": "Alice Dupont",
+      "role": "Participant",
+      "email": "AliceDupont@gmail.com",
+      "password": 2526272829,
+      "formationsInscrites": [101, 103]
+    },
+    {
+      "id": 202,
+      "nom":"Jean Martin",
+      "role": "Formateur",
+      "email": "JeanMartin@gmail.com",
+      "password": 2526272829,
+      "formationsInscrites": [101]
+    },
+    {
+      "id": 203,
+      "nom":"Marie Curie",
+      "role": "Participant",
+      "email": "mariecurie@gmail.com",
+      "password": 2526272829,
+      "formationsInscrites": [102]
+    }
+  ] 
+}

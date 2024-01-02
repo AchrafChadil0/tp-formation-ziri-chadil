@@ -1,0 +1,49 @@
+{
+  "formations": [
+    {
+      "id": 101,
+      "title": "Développement Web Avancé",
+      "domain": "Informatique",
+      "level": "Intermédiaire",
+      "description": "Approfondissement des concepts de développement web moderne avec React et Node.js.",
+      "availability": true
+    },
+    {
+      "id": 102,
+      "title": "Gestion de Projet Agile",
+      "domain": "Management",
+      "level": "Débutant",
+      "description": "Introduction aux méthodologies agiles, principalement Scrum et Kanban.",
+      "availability": false
+    },
+    {
+      "id": 103,
+      "title": "Design Graphique pour le Web",
+      "domain": "Design",
+      "level": "Intermédiaire",
+      "description": "Techniques de design graphique appliquées à la création de sites web attractifs.",
+      "availability": true
+    }
+  ],
+  "utilisateurs": [
+    {
+      "id": 201,
+      "name": "Alice Dupont",
+      "role": "Participant",
+      "enrolledCourses": [101 , 103]
+    },
+    {
+      "id": 202,
+      "name": "Jean Martin",
+      "role": "Formateur",
+      "enrolledCourses": [101]
+    },
+    {
+      "id": 203,
+      "name": "Marie Curie",
+      "role": "Participant",
+      "enrolledCourses": [102]
+    }
+  ]
+}
+  
